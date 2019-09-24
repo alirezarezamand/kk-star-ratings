@@ -114,7 +114,7 @@ class StructureTest extends TestCase
     {
         $payload = array_merge([
             'stars' => 5,
-            'type' => 'CreativeWork',
+            'type' => 'CreativeWorkSeries',
             'context' => 'https://schema.org/',
         ], $payload);
 
